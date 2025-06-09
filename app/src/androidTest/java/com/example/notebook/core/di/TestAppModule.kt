@@ -2,12 +2,9 @@ package com.example.notebook.core.di
 
 import android.app.Application
 import androidx.room.Room
-import com.example.notebook.addNote.domain.usecases.SearchImages
 import com.example.notebook.addNote.domain.usecases.UpsertNote
 import com.example.notebook.core.data.local.NoteDatabase
 import com.example.notebook.core.data.repository.FakeAndroidNoteRepository
-import com.example.notebook.core.data.repository.NoteRepositoryImpl
-import com.example.notebook.core.domain.repository.ImagesRepository
 import com.example.notebook.core.domain.repository.NoteRepository
 import com.example.notebook.noteList.domain.usecases.DeleteNote
 import com.example.notebook.noteList.domain.usecases.GetAllNotes
@@ -15,10 +12,7 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
-import kotlin.jvm.java
 
 @Module
 @InstallIn(SingletonComponent::class)
