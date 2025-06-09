@@ -1,4 +1,4 @@
-package com.example.notebook.addNote.presentation
+package com.example.notebook.addnote.presentation
 
 data class AddNoteState(
     val imageUrl: String = "",

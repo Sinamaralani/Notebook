@@ -1,4 +1,4 @@
-package com.example.notebook.noteList.presentation
+package com.example.notebook.notelist.presentation
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable

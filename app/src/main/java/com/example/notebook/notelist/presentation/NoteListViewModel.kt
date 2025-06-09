@@ -1,10 +1,10 @@
-package com.example.notebook.noteList.presentation
+package com.example.notebook.notelist.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.notebook.core.domain.model.NoteItem
-import com.example.notebook.noteList.domain.usecases.DeleteNote
-import com.example.notebook.noteList.domain.usecases.GetAllNotes
+import com.example.notebook.notelist.domain.usecases.DeleteNote
+import com.example.notebook.notelist.domain.usecases.GetAllNotes
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

@@ -2,8 +2,8 @@ package com.example.notebook.core.di
 
 import android.app.Application
 import androidx.room.Room
-import com.example.notebook.addNote.domain.usecases.SearchImages
-import com.example.notebook.addNote.domain.usecases.UpsertNote
+import com.example.notebook.addnote.domain.usecases.SearchImages
+import com.example.notebook.addnote.domain.usecases.UpsertNote
 import com.example.notebook.core.data.local.NoteDatabase
 import com.example.notebook.core.data.remote.api.ImageApi
 import com.example.notebook.core.data.remote.api.ImageApi.Companion.BASE_URL
@@ -11,8 +11,8 @@ import com.example.notebook.core.data.repository.ImagesRepositoryImpl
 import com.example.notebook.core.data.repository.NoteRepositoryImpl
 import com.example.notebook.core.domain.repository.ImagesRepository
 import com.example.notebook.core.domain.repository.NoteRepository
-import com.example.notebook.noteList.domain.usecases.DeleteNote
-import com.example.notebook.noteList.domain.usecases.GetAllNotes
+import com.example.notebook.notelist.domain.usecases.DeleteNote
+import com.example.notebook.notelist.domain.usecases.GetAllNotes
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

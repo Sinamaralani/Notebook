@@ -1,4 +1,4 @@
-package com.example.notebook.addNote.presentation.util
+package com.example.notebook.addnote.presentation.util
 
 sealed class Resource<T>(
     val data: T? = null,

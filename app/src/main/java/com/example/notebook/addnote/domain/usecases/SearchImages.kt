@@ -1,6 +1,6 @@
-package com.example.notebook.addNote.domain.usecases
+package com.example.notebook.addnote.domain.usecases
 
-import com.example.notebook.addNote.presentation.util.Resource
+import com.example.notebook.addnote.presentation.util.Resource
 import com.example.notebook.core.domain.model.Images
 import com.example.notebook.core.domain.repository.ImagesRepository
 import kotlinx.coroutines.flow.Flow

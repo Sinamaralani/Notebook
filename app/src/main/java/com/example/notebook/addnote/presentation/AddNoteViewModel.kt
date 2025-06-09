@@ -1,10 +1,10 @@
-package com.example.notebook.addNote.presentation
+package com.example.notebook.addnote.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.notebook.addNote.domain.usecases.SearchImages
-import com.example.notebook.addNote.domain.usecases.UpsertNote
-import com.example.notebook.addNote.presentation.util.Resource
+import com.example.notebook.addnote.domain.usecases.SearchImages
+import com.example.notebook.addnote.domain.usecases.UpsertNote
+import com.example.notebook.addnote.presentation.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.channels.Channel

@@ -1,4 +1,4 @@
-package com.example.notebook.addNote.presentation
+package com.example.notebook.addnote.presentation
 
 sealed interface AddNoteActions {
     data class UpdateTitle(val newTitle: String) : AddNoteActions
